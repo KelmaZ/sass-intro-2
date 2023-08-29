@@ -1,0 +1,11 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin img-style($url1) {
+    background: $url1;
+    background-size: cover;
+    background-position: center;
+  }
